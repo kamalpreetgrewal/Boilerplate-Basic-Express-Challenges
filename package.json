@@ -1,17 +1,28 @@
 {
-	"name": "fcc-learn-node-with-express",
-	"version": "0.1.0",
-	"dependencies": {
-		"express": "^4.14.0",
-		"body-parser": "^1.15.2",
-		"cookie-parser": "^1.4.3",
-		"fcc-express-bground": "https://github.com/Em-Ant/fcc-express-bground-pkg.git"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": "4.4.5"
-	}
+  "name": "fcc-learn-node-with-express",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "fcc-express-bground": "git+https://github.com/Em-Ant/fcc-express-bground-pkg.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "description": "\"Boilerplate for basic express and node.js practice\"",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeCodeCamp/boilerplate-express.git"
+  },
+  "author": "\"Kamalpreet Grewal\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/boilerplate-express/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/boilerplate-express#readme"
 }
